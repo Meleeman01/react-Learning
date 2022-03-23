@@ -1,0 +1,21 @@
+.empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.empty img {
+    
+    height: 206px;
+}
+.empty span {
+  text-align: center;
+}
+
+.expense-list {
+  margin: 6px 12px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}

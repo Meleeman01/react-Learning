@@ -1,0 +1,119 @@
+.add-form {
+    border-radius: 20px;
+    background: #71ccca;
+    box-shadow:  20px 20px 60px #60adac,
+             -20px -20px 60px #82ebe8;
+    margin: 6px 12px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 60vh;
+}
+
+.form-item {
+    margin: 12px 0px;
+    width: 70%;
+    padding: 4px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.form-item label {
+    background-color: lightgrey;
+    padding: 2px 12px;
+    border-radius: 0 4px 4px 0;
+}
+
+.form-item input {
+    font-size: 16px;
+    outline: none;
+    border: none;
+    width: 70%;
+}
+
+.category-container-parent {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.category {
+    position: relative;
+    width: 40%;
+}
+
+.category-dropdown {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    margin: 12px 0px;
+    padding: 4px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.category-dropdown i {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.category-container {
+    background-color: white;
+}
+
+.category-item {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: .75rem .75rem;
+    padding-left: .25rem;
+    cursor: pointer;
+}
+
+.category-item i {
+    margin-right: 10px;
+}
+
+.form-add-button {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.form-add-button div {
+    display: flex;
+    padding: .25rem;
+    border: 1px black solid;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+.form-add-button div i {
+    display: flex;
+    align-items: center;
+    margin-left: .5rem;
+}
+
+@media only screen and (max-width: 1024px){
+    .form-item {
+        width: 100%;
+    }
+    .form-item input {
+        width: 70%;
+    }
+    .amount-input {
+        width: 50%!important;
+    }
+    .category {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 512px){
+    
+}
